@@ -11,7 +11,7 @@
 function age($birthdate) {
 	return (strtotime('now') - strtotime($birthdate))/(60*60*24*365);
 }	
-$age =  age('1957-12-01');
+$age =  age('1963-12-01');
 
 if ($age > 21) {
 	?>
